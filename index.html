@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="https://kit.fontawesome.com/ad549a123d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="containBG">
+        <div class="todo-container" id="tdBG">
+            <h2 id="todoTitle">To-Do List <img id="iconImg" src="Images/icon.jpg" alt="img"> <span class="modeChange" id="md" onclick="modeChange()">&#x263C</span></h2>
+            <div class="row" id="inputBG">
+                <input type="text" id="input-box" placeholder="Add Your Text">
+                <button id="btnBG" onclick="addTask()">Add</button>
+            </div>
+        <ul id="list-container">
+        </ul>
+        </div>
+    </div>
+    <script src="javaScript.js">
+    </script>
+</body>
+</html>
